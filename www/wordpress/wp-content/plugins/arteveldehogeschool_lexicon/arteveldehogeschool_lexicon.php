@@ -10,7 +10,8 @@ Text Domain: arteveldehogeschool
 License: GPLv2
 */
 
-/* Vertalingen inladen met de naam graphic_term-*.mo.
+/*
+ *  Vertalingen inladen met de naam graphic_term-*.mo.
  *
  * @link https://developer.wordpress.org/reference/functions/load_plugin_textdomain/
  * @link http://php.net/manual/en/function.dirname.php
@@ -66,7 +67,6 @@ function register_graphic_term_post_type() {
  * @link http://codex.wordpress.org/Plugin_API/Action_Reference/init
  */
 add_action( 'init', 'register_graphic_term_post_type' );
-
 
 /**
  * Functie om de meta box van het Custom Post Type 'graphic_term' te tonen.
