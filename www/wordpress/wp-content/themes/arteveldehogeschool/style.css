@@ -2,12 +2,23 @@
 Theme Name:   Arteveldehogeschool
 Theme URI:    http://www.arteveldehogeschool.be
 Description:  DevDmBootstrap3 Child Theme
-Author:       Olivier Parent
 Author URI:   http://www.olivierparent.be
 Template:     devdmbootstrap3
 Version:      1.0.0
-Tags:         arteveldehogeschool, grafimediabeleid, crossmedia publishing, wordpress
-Text Domain:  devdmbootstrap3-child
+Tags:         arteveldehogeschool, grafimediabeleid, crossmedia publishing, wordpress theme
+Text Domain:  arteveldehogeschool
 */
 
 /* Vanaf hier mag je stijlen toevoegen */
+
+.widget_pages > ul {
+    list-style: none;
+    padding: 0;
+}
+.widget_pages li {
+    border-radius: .5em;
+    padding: .25em .75em;
+}
+.widget_pages .current_page_item {
+    background-color: #F8B000;
+}
