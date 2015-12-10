@@ -20,14 +20,14 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-define('AUTH_KEY',         ' R5|N8/U}V8mx72&C4<V/;tQ)Fgd#A]k8FjSX!m]gp%0z?=dg:vlh{2v=5A=Z)=n');
-define('SECURE_AUTH_KEY',  'P<*7+#{@+qP=AtS/a-F^y>4 K9Mo1Z;$tU917GuP^oJbl4G.X!iy+CKXTtp`mZ;P');
-define('LOGGED_IN_KEY',    '$j,L}=b:X5 o66UGe:_;oq0*Gg)7<eg. <Jimz*;}ycsU2s=qa{P$8FHV0FFebT]');
-define('NONCE_KEY',        ';GKg<*59h4sB&T`R6B9,mwEV|`]9w+|sGzT9GFVPO+3|]+JJ|shb)*|`}(LwRwwP');
-define('AUTH_SALT',        'N3~ZDqBry-*q43xUb|Q{qCI+b@]w^Fa;V$YCQqM_4B- aq!jXm=8|1=)fiiv59}%');
-define('SECURE_AUTH_SALT', '}5<FfR=~gY8<A4Du1-4bT)y!< Kei3l_gK*Y#kIoUcbYePl8}2-eZTzx(x{,D0,o');
-define('LOGGED_IN_SALT',   'Exs+Z%0b}nmzD4ZQp*&?.F-gdW~pJ}2Rj$~07aiDooH2pGU]o:{XmG(COx3{o|b/');
-define('NONCE_SALT',       'Ou `0Z1CHXR9H]2,)jtF_MIv@?+5flN4cRf+sy%2PpljnFTLqr-1N_{ha[G%M1Hh');
+define('AUTH_KEY',         'RPnJ.C7[{0u&?V{OU<]r#b(9Y|85]LoNrQ~.Yh$G[02WKMr0iP~m4)B[|/3jn;eR');
+define('SECURE_AUTH_KEY',  'MOp,<-iZH~SD.~+/tkVrM<!-|rRq{TN+~IP768]OcR^:VLzwP{x#Xmm%W~kjZ&BQ');
+define('LOGGED_IN_KEY',    'l6]#nd+o@lLA/]-u_|/^S{ME/:ByKJAq|l+{#`Okm&3?5d2;av_ozW1HUkI&w$7F');
+define('NONCE_KEY',        '^<q)rQ(7^)ZTuB.g@ZwtDh+wm=>;3.s|+|{E9@R}0lsG$>I4)!/0/fY$x0DyNp_1');
+define('AUTH_SALT',        ')J@#fxGp/>jFpH*oZC`ao<7YCAY8(A+B7cG`TJ|I45jSrI|SC6!$!E$zE9D-bsRa');
+define('SECURE_AUTH_SALT', 'eY_4O/zsSb:i`u|Vzv+%`^0O+2>EO|f2o%B{;0XtDK`p{>3_df6u|nd*91-96_&;');
+define('LOGGED_IN_SALT',   'UBw5Fb$t6Z5>N<b)yy h|l2 `I-|V&}Mlhce$sK6?rAL$PC%-.rof^o}U-dXSq15');
+define('NONCE_SALT',       '*%wkNO:9I}0e:c!9v5s,#?L^(mWA!?Wci~X0K-A*48ut;Sk+Ij`^)U!.(c=:N$`X');
 
 
 $table_prefix = 'wp_';

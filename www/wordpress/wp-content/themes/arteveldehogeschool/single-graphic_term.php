@@ -24,7 +24,6 @@
                     'English'  => esc_html( get_post_meta( get_the_ID(), 'graphic_term_en', true ) ),
                     'Deutsch'  => esc_html( get_post_meta( get_the_ID(), 'graphic_term_de', true ) ),
                 );
-
                 ?>
                 <div class="alert alert-info">
                     <table class="table">

@@ -28,7 +28,6 @@ remove_filter ('the_content',  'wpautop'); // Verwijder de automatische toevoegi
 
 <?php get_template_part('template-part', 'topnav'); ?>
 
-
 <!-- start content container -->
 <div class="row dmbs-content">
 
