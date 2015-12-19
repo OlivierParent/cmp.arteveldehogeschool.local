@@ -1,5 +1,5 @@
-# Translation of Development in Dutch
-# This file is distributed under the same license as the Development package.
+# Translation of Development (4.4.x) in Dutch
+# This file is distributed under the same license as the Development (4.4.x) package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2015-12-08 13:24:27+0000\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Development\n"
+"Project-Id-Version: Development (4.4.x)\n"
 
 #. translators: 'rtl' or 'ltr'. This sets the text direction for WordPress.
 #: wp-includes/locale.php:201
@@ -666,7 +666,7 @@ msgctxt "adjective"
 msgid "Trash"
 msgstr "Prullenbak"
 
-#: wp-includes/comment-template.php:2110
+#: wp-includes/comment-template.php:2115
 msgid "<a href=\"%1$s\" aria-label=\"Logged in as %2$s. Edit your profile.\">Logged in as %2$s</a>. <a href=\"%3$s\">Log out?</a>"
 msgstr "<a href=\"%1$s\" aria-label=\"Ingelogd als %2$s. Je profiel bewerken.\">Ingelogd als %2$s</a>. <a href=\"%3$s\">Uitloggen?</a>"
 
@@ -1694,24 +1694,24 @@ msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %
 msgstr "De %1$s optie wordt niet meer ondersteund voor de familie van %2$s functies. Gebruik de %3$s functie."
 
 #. translators: %s: post title
-#: wp-includes/comment-template.php:1451
+#: wp-includes/comment-template.php:1456
 msgid "No Comments<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Geen reacties<span class=\"screen-reader-text\"> op %s</span>"
 
 #. translators: %s: post title
-#: wp-includes/comment-template.php:1467
+#: wp-includes/comment-template.php:1472
 msgid "Comments Off<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Reacties staat uit<span class=\"screen-reader-text\"> voor %s</span>"
 
 #. translators: 1: Number of comments 2: post title
-#: wp-includes/comment-template.php:1461
+#: wp-includes/comment-template.php:1466
 msgid "%1$s Comment<span class=\"screen-reader-text\"> on %2$s</span>"
 msgid_plural "%1$s Comments<span class=\"screen-reader-text\"> on %2$s</span>"
 msgstr[0] "%1$s Reactie<span class=\"screen-reader-text\"> op %2$s</span>"
 msgstr[1] "%1$s Reacties<span class=\"screen-reader-text\"> op %2$s</span>"
 
 #. translators: %s: post title
-#: wp-includes/comment-template.php:1456
+#: wp-includes/comment-template.php:1461
 msgid "1 Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "1 Reactie<span class=\"screen-reader-text\"> op %s</span>"
 
@@ -1963,7 +1963,7 @@ msgstr "Geef stijltags niet door aan wp_add_inline_style()."
 msgid "The following values do not describe a valid date: year %1$s, month %2$s, day %3$s."
 msgstr "De volgende waarden beschrijven geen geldige datum: dag %3$s, maand %2$s, jaar %1$s."
 
-#: wp-includes/comment-template.php:1558
+#: wp-includes/comment-template.php:1563
 msgid "Reply to %s"
 msgstr "Antwoord op %s"
 
@@ -5182,7 +5182,7 @@ msgstr "<strong>Conflicterende waarden voor de constanten VHOST en SUBDOMAIN_INS
 msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
 msgstr "<strong>FOUT</strong>: Deze gebruikersnaam is ongeldig omdat er illegale tekens in voorkomen. Vul een geldige gebruikersnaam in."
 
-#: wp-includes/comment-template.php:2094
+#: wp-includes/comment-template.php:2099
 msgid "Required fields are marked %s"
 msgstr "Verplichte velden zijn gemarkeerd met %s"
 
@@ -5349,7 +5349,7 @@ msgstr "Er is een fout opgetreden bij het toevoegen van jou op deze site. Ga ter
 msgid "This file is too big. Files must be less than %d KB in size."
 msgstr "Dit bestand is te groot. Bestanden moeten kleiner dan %d KB zijn."
 
-#: wp-includes/comment-template.php:2111
+#: wp-includes/comment-template.php:2116
 msgid "Your email address will not be published."
 msgstr "Het e-mailadres wordt niet gepubliceerd."
 
@@ -6749,11 +6749,11 @@ msgstr "Auteur is %s"
 msgid "That user does not exist."
 msgstr "Deze gebruiker bestaat niet."
 
-#: wp-includes/comment-template.php:2124
+#: wp-includes/comment-template.php:2129
 msgid "Cancel reply"
 msgstr "Reactie annuleren"
 
-#: wp-includes/comment-template.php:2125
+#: wp-includes/comment-template.php:2130
 msgid "Post Comment"
 msgstr "Reactie plaatsen"
 
@@ -7461,7 +7461,7 @@ msgstr "1 reactie"
 msgid "Edit This"
 msgstr "Bewerken"
 
-#: wp-includes/comment-template.php:2108
+#: wp-includes/comment-template.php:2113
 #: wp-includes/theme-compat/comments.php:82
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "Je moet <a href=\"%s\">inloggen</a> om een reactie te kunnen plaatsen."
@@ -7502,20 +7502,20 @@ msgstr "Geen categorie&#235;n"
 msgid "Feed for all posts filed under %s"
 msgstr "Feed voor alle berichten opgeslagen onder %s"
 
-#: wp-includes/comment-template.php:1670
+#: wp-includes/comment-template.php:1675
 msgid "Leave a Comment"
 msgstr "Geef een reactie"
 
-#: wp-includes/comment-template.php:1739
+#: wp-includes/comment-template.php:1744
 msgid "Click here to cancel reply."
 msgstr "Klik hier om je antwoord te annuleren."
 
-#: wp-includes/comment-template.php:1826 wp-includes/comment-template.php:2118
+#: wp-includes/comment-template.php:1831 wp-includes/comment-template.php:2123
 #: wp-includes/theme-compat/comments.php:75
 msgid "Leave a Reply"
 msgstr "Geef een reactie"
 
-#: wp-includes/comment-template.php:1827 wp-includes/comment-template.php:2119
+#: wp-includes/comment-template.php:1832 wp-includes/comment-template.php:2124
 #: wp-includes/theme-compat/comments.php:75
 msgid "Leave a Reply to %s"
 msgstr "Laat een reactie achter bij %s"
@@ -7549,7 +7549,7 @@ msgstr "Meta"
 msgid "First Post"
 msgstr "Eerste bericht"
 
-#: wp-includes/comment-template.php:2088
+#: wp-includes/comment-template.php:2093
 #: wp-includes/theme-compat/comments-popup.php:81 wp-login.php:721
 msgid "Email"
 msgstr "E-mail"
@@ -7583,7 +7583,7 @@ msgstr "Datumnotatie"
 msgid "Time Format"
 msgstr "Tijdnotatie"
 
-#: wp-includes/comment-template.php:1671
+#: wp-includes/comment-template.php:1676
 msgid "Log in to leave a Comment"
 msgstr "Inloggen om een reactie te geven"
 
@@ -7591,7 +7591,7 @@ msgstr "Inloggen om een reactie te geven"
 msgid "No Comments"
 msgstr "Geen reacties"
 
-#: wp-includes/comment-template.php:1559
+#: wp-includes/comment-template.php:1564
 msgid "Log in to Reply"
 msgstr "Log in om te reageren"
 
@@ -7599,7 +7599,7 @@ msgstr "Log in om te reageren"
 msgid "Usage of user levels by plugins and themes is deprecated. Use roles and capabilities instead."
 msgstr "Gebruik van de gebruikerslevels in plugins en thema&#39;s is niet meer mogelijk. Gebruik in plaats daarvan rollen."
 
-#: wp-includes/comment-template.php:1476
+#: wp-includes/comment-template.php:1481
 msgid "Enter your password to view comments."
 msgstr "Voer je wachtwoord in om reacties te bekijken."
 
@@ -7646,7 +7646,7 @@ msgstr[1] "%s onderwerpen"
 msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
 msgstr "Mogelijk gemaakt door WordPress."
 
-#: wp-includes/comment-template.php:2090
+#: wp-includes/comment-template.php:2095
 #: wp-includes/theme-compat/comments.php:102
 msgid "Website"
 msgstr "Website"
@@ -7741,7 +7741,7 @@ msgstr "Auteur"
 msgid "URL"
 msgstr "URL"
 
-#: wp-includes/comment-template.php:1041 wp-includes/comment-template.php:2106
+#: wp-includes/comment-template.php:1041 wp-includes/comment-template.php:2111
 msgctxt "noun"
 msgid "Comment"
 msgstr "Reactie"
@@ -7791,7 +7791,7 @@ msgstr "Opslaan"
 msgid "Advanced"
 msgstr "Geavanceerd"
 
-#: wp-includes/comment-template.php:2086
+#: wp-includes/comment-template.php:2091
 #: wp-includes/theme-compat/comments-popup.php:76
 #: wp-includes/theme-compat/comments.php:96
 msgid "Name"
@@ -7872,7 +7872,7 @@ msgstr "Inhoud"
 msgid "Save Draft"
 msgstr "Opslaan als concept"
 
-#: wp-includes/comment-template.php:1557 wp-includes/script-loader.php:488
+#: wp-includes/comment-template.php:1562 wp-includes/script-loader.php:488
 msgid "Reply"
 msgstr "Beantwoorden"
 

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-09 07:33:33+0000\n"
+"PO-Revision-Date: 2015-12-17 11:04:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1399,7 +1399,7 @@ msgstr "De instelling %s is niet geregistreerd. Niet-geregistreerde instellingen
 
 #: wp-admin/update-core.php:71 wp-admin/upgrade.php:81
 msgid "You cannot update because <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
-msgstr "Het is niet mogelijk om WordPress te updaten naar <a href=\"https://codex.wordpress.org/Version_%1$s\">versie %1$s</a> omdat deze PHP versie %2$s of hoger vereist en MySQL versie %3$s of hoger. Je site draait momenteel op PHP versie %4$s en MySQL versie %5$s."
+msgstr "Het is niet mogelijk om WordPress te bijwerken naar <a href=\"https://codex.wordpress.org/Version_%1$s\">versie %1$s</a> omdat deze PHP versie %2$s of hoger vereist en MySQL versie %3$s of hoger. Je site draait momenteel op PHP versie %4$s en MySQL versie %5$s."
 
 #: wp-admin/update-core.php:73 wp-admin/upgrade.php:83
 msgid "You cannot update because <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher. You are running version %3$s."
@@ -1681,10 +1681,6 @@ msgstr "'Press this' openen"
 msgid "You are currently editing the page that shows your latest posts."
 msgstr "Je bent op dit moment een pagina aan het bewerken die de laatste berichten toont."
 
-#: wp-admin/includes/update.php:345
-msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\" class=\"update-link\">update now</a>."
-msgstr "Er is een nieuwe versie beschikbaar van %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">%4$sDetails bekijken</a> of <a href=\"%5$s\" class=\"update-link\">nu bijwerken</a>."
-
 #: wp-admin/upload.php:240
 msgid "Detached %d attachment."
 msgid_plural "Detached %d attachments."
@@ -1737,6 +1733,10 @@ msgstr "Dit thema is nog niet beoordeeld."
 #: wp-admin/update-core.php:398
 msgid "New translations are available."
 msgstr "Er zijn nieuwe vertalingen beschikbaar."
+
+#: wp-admin/includes/update.php:345
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\" class=\"update-link\">update now</a>."
+msgstr "Er is een nieuwe versie beschikbaar van %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Details van %4$s bekijken</a> of <a href=\"%5$s\" class=\"update-link\">nu bijwerken</a>."
 
 #: wp-admin/includes/class-wp-upgrader.php:3456
 msgid ""
@@ -4412,7 +4412,7 @@ msgstr "Laat de header tekst en je afbeelding zien."
 
 #: wp-admin/includes/theme.php:176 wp-admin/includes/update.php:446
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\">update now</a>."
-msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Bekijk versie %4$s details</a> of <a href=\"%5$s\">nu bijwerken</a>."
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Details van %4$s bekijken</a> of <a href=\"%5$s\">nu bijwerken</a>."
 
 #: wp-admin/includes/plugin.php:168
 msgid "By %s."
@@ -4484,14 +4484,14 @@ msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "1"
 
-#: wp-admin/includes/theme.php:173 wp-admin/includes/update.php:444
-msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this theme.</em>"
-msgstr "Er is een nieuwe versie beschikbaar van %1$s . <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Bekijk versie %4$s details</a>. <em>Automatische updates zijn niet beschikbaar voor dit thema.</em>"
-
 #. translators: 1: month number (01, 02, etc.), 2: month abbreviation
 #: wp-admin/includes/template.php:719
 msgid "%1$s-%2$s"
 msgstr "%1$s-%2$s"
+
+#: wp-admin/includes/theme.php:173 wp-admin/includes/update.php:444
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this theme.</em>"
+msgstr "Er is een nieuwe versie beschikbaar van %1$s . <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Details van %4$s bekijken</a>. <em>Automatisch bijwerken is niet beschikbaar voor dit thema.</em>"
 
 #: wp-admin/install.php:110 wp-admin/install.php:288
 msgctxt "Howdy"
@@ -4522,10 +4522,6 @@ msgstr "Je hebt onvoldoende rechten om deze site te verwijderen."
 msgid "Thank you for using %s, your site has been deleted. Happy trails to you until we meet again."
 msgstr "Bedankt voor het gebruik van %s, je site is verwijderd. Hopelijk tot een volgende keer."
 
-#: wp-admin/ms-delete-site.php:78
-msgid "Thank you. Please check your email for a link to confirm your action. Your site will not be deleted until this link is clicked."
-msgstr "Bedankt. Controleer je e-mail voor een link om je actie te bevestigen. Je site wordt niet verwijderd totdat op de link wordt geklikt om de actie te bevestigen."
-
 #: wp-admin/ms-delete-site.php:83
 msgid "Remember, once deleted your site cannot be restored."
 msgstr "Onthoudt dat als deze website eenmaal is verwijderd het niet kan worden hersteld."
@@ -4549,6 +4545,10 @@ msgstr "Als je de %s website niet meer wilt gebruiken, kun je deze verwijderen m
 #: wp-admin/ms-delete-site.php:23
 msgid "I'm sorry, the link you clicked is stale. Please select another option."
 msgstr "De link waarop je hebt geklikt is verouderd. Een andere optie selecteren."
+
+#: wp-admin/ms-delete-site.php:78
+msgid "Thank you. Please check your email for a link to confirm your action. Your site will not be deleted until this link is clicked."
+msgstr "Bedankt. Je e-mail controleren voor een link om je actie te bevestigen. Je site wordt niet verwijderd totdat op de link wordt geklikt om de actie te bevestigen."
 
 #: wp-admin/includes/ms.php:36
 msgid "This file is too big. Files must be less than %1$s KB in size."
@@ -5257,10 +5257,6 @@ msgstr "Pagina&#39;s beheren"
 msgid "You can hide/display columns based on your needs and decide how many users to list per screen using the Screen Options tab."
 msgstr "Je kunt kolommen tonen/verbergen naar eigen inzicht en beslissen hoeveel berichten worden getoond per scherm met gebruik van de Scherminstellingen tab."
 
-#: wp-admin/edit.php:209
-msgid "<strong>Quick Edit</strong> provides inline access to the metadata of your post, allowing you to update post details without leaving this screen."
-msgstr "<strong>Snel bewerken</strong> geeft toegang tot de metadata van je bericht, en laat je berichtdetails bijwerken zonder het scherm te verlaten."
-
 #: wp-admin/users.php:47
 msgid "Hovering over a row in the users list will display action links that allow you to manage users. You can perform the following actions:"
 msgstr "Hoveren over een rij in de gebruikerslijst toont actielinks die je toestaan gebruikers te beheren. Je hebt de keuze uit de volgende acties:"
@@ -5284,6 +5280,10 @@ msgstr "<strong>Voorbeeld</strong> toont hoe je concept-bericht eruit ziet als j
 #: wp-admin/edit.php:208
 msgid "<strong>Edit</strong> takes you to the editing screen for that post. You can also reach that screen by clicking on the post title."
 msgstr "<strong>Bewerken</strong> brengt je naar het bewerkscherm van dat bericht. Je kunt dat scherm ook bereiken door op de berichttitel te klikken."
+
+#: wp-admin/edit.php:209
+msgid "<strong>Quick Edit</strong> provides inline access to the metadata of your post, allowing you to update post details without leaving this screen."
+msgstr "<strong>Snel bewerken</strong> geeft toegang tot de metadata van je bericht en laat je de berichtdetails bijwerken zonder het scherm te verlaten."
 
 #: wp-admin/user-new.php:171
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
@@ -5408,7 +5408,7 @@ msgstr "De %s tabel is ok&#233;."
 
 #: wp-admin/update-core.php:306
 msgid "View version %1$s details."
-msgstr "Details van versie %1$s bekijken"
+msgstr "Details van versie %1$s bekijken."
 
 #: wp-admin/includes/import.php:195
 msgid "Tumblr"
@@ -5420,7 +5420,7 @@ msgstr "Installeer de Tumblr importeerfunctie om berichten &amp; media van Tumbl
 
 #: wp-admin/includes/dashboard.php:1293
 msgid "<a href=\"%1$s\" class=\"update-browser-link\">Update %2$s</a> or learn how to <a href=\"%3$s\" class=\"browse-happy-link\">browse happy</a>"
-msgstr "<a href=\"%1$s\" class=\"update-browser-link\">Update %2$s</a> of leer hoe je goed en veilig kunt <a href=\"%3$s\" class=\"browse-happy-link\">bladeren</a>"
+msgstr "<a href=\"%1$s\" class=\"update-browser-link\">%2$s bijwerken</a> of leer hoe je goed en veilig kunt <a href=\"%3$s\" class=\"browse-happy-link\">bladeren</a>"
 
 #. translators: %1$s is link start tag, %2$s is link end tag, %3$d is width,
 #. %4$d is height
@@ -6180,7 +6180,7 @@ msgstr "Update pakket niet beschikbaar."
 
 #: wp-admin/includes/update.php:343
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this plugin.</em>"
-msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Bekijk de versie %4$s details</a>. <em>Automatisch updaten is niet beschikbaar voor deze plugin.</em>"
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Details van %4$s bekijken</a>. <em>Automatisch bijwerken is niet beschikbaar voor deze plugin.</em>"
 
 #: wp-admin/export.php:186 wp-admin/export.php:223 wp-admin/export.php:255
 msgid "Date range:"
