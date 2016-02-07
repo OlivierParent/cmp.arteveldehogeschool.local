@@ -3,7 +3,7 @@ COURSE='Crossmedia Publishing'
 
 # Database
 # --------
-DB_NAME=${APP}_arteveldehogeschool_be
+DB_NAME=${APP}_local
 DB_USER=${APP}_db_user
 DB_PASS=${APP}_db_password
 DB_DUMP=`dirname $0`/db_dumps
@@ -17,4 +17,4 @@ WP_PATH=wordpress
 WP_USER=${APP}_gebruiker
 WP_PASS=${APP}_wachtwoord
 WP_MAIL=${APP}@arteveldehs.be
-WP_URL=www.${APP}.arteveldehogeschool.local
+WP_URL=www.${APP}.local

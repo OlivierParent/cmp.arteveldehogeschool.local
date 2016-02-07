@@ -3,7 +3,7 @@
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'cmp_arteveldehogeschool_be');
+define('DB_NAME', 'cmp_local');
 
 /** MySQL database username */
 define('DB_USER', 'cmp_db_user');
